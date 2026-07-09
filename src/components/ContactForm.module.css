@@ -3,9 +3,10 @@
   flex-direction: column;
   gap: 1.25rem;
   background-color: #ffffff;
-  padding: 2.25rem;
-  border-radius: 16px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 8px 24px rgba(0, 0, 0, 0.05);
+  border: 1px solid #dbe3ef;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.12);
 }
 
 .field {
@@ -15,19 +16,19 @@
 }
 
 .label {
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  color: #374151;
+  color: #0f172a;
 }
 
 .input,
 .textarea {
   padding: 0.75rem 1rem;
-  border: 1.5px solid #e5e7eb;
-  border-radius: 8px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 12px;
   font-size: 0.9375rem;
-  color: #111827;
-  background-color: #ffffff;
+  color: #0f172a;
+  background-color: #f8fafc;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
   width: 100%;
   font-family: inherit;
@@ -36,8 +37,8 @@
 .input:focus,
 .textarea:focus {
   outline: none;
-  border-color: #6366f1;
-  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.12);
+  border-color: #0f766e;
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.15);
 }
 
 .inputError {
@@ -60,26 +61,26 @@
 }
 
 .submit {
-  background-color: #6366f1;
+  background-color: #0f766e;
   color: #ffffff;
   border: none;
   padding: 0.875rem 2rem;
-  border-radius: 10px;
+  border-radius: 12px;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.15s ease,
     box-shadow 0.2s ease;
-  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
+  box-shadow: 0 12px 26px rgba(15, 118, 110, 0.28);
   margin-top: 0.5rem;
   width: 100%;
   font-family: inherit;
 }
 
 .submit:hover {
-  background-color: #4f46e5;
+  background-color: #115e59;
   transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.45);
+  box-shadow: 0 14px 30px rgba(15, 118, 110, 0.34);
 }
 
 .submit:active {
@@ -87,22 +88,22 @@
 }
 
 .success {
-  background-color: #f0fdf4;
-  border: 1.5px solid #86efac;
-  border-radius: 16px;
-  padding: 2.5rem;
+  background-color: #f0fdfa;
+  border: 1.5px solid #5eead4;
+  border-radius: 20px;
+  padding: 2.25rem;
   text-align: center;
 }
 
 .success h3 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #16a34a;
+  color: #0f766e;
   margin: 0 0 0.5rem;
 }
 
 .success p {
   font-size: 1rem;
-  color: #4b7c5c;
+  color: #0f766e;
   margin: 0;
 }

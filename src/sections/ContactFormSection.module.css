@@ -1,35 +1,126 @@
 .section {
-  background-color: #f9fafb;
-  padding: 5rem 1.5rem;
+  background:
+    linear-gradient(180deg, #eef2ff 0%, #ecfeff 100%);
+  padding: 5.25rem 1.5rem;
 }
 
 .container {
-  max-width: 600px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
 .header {
   text-align: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.3rem;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 0.85rem;
+  border-radius: 999px;
+  border: 1px solid rgba(15, 118, 110, 0.22);
+  background: rgba(15, 118, 110, 0.12);
+  color: #0f766e;
+  padding: 0.42rem 0.95rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
 }
 
 .heading {
-  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-size: clamp(2rem, 4.1vw, 3rem);
   font-weight: 800;
-  color: #111827;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.75rem;
+  color: #0f172a;
+  letter-spacing: -0.03em;
+  line-height: 1.07;
+  margin: 0 0 0.8rem;
 }
 
 .subtext {
-  font-size: 1rem;
-  color: #6b7280;
+  font-size: 1.04rem;
+  color: #475569;
   line-height: 1.7;
   margin: 0;
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 1.35rem;
+  align-items: start;
+}
+
+.formCol {
+  min-width: 0;
+}
+
+.metaCol {
+  border-radius: 20px;
+  border: 1px solid rgba(148, 163, 184, 0.45);
+  background-color: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.12);
+  padding: 1.2rem;
+  display: grid;
+  gap: 0.95rem;
+}
+
+.metaHeading {
+  margin: 0;
+  font-size: 1.08rem;
+  color: #0f172a;
+  letter-spacing: -0.01em;
+}
+
+.metaList {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.metaItem {
+  color: #475569;
+  line-height: 1.6;
+}
+
+.metaCard {
+  border-radius: 14px;
+  border: 1px solid rgba(15, 118, 110, 0.28);
+  background-color: rgba(240, 253, 250, 0.9);
+  padding: 0.85rem;
+}
+
+.metaLabel {
+  margin: 0;
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #0f766e;
+  font-weight: 700;
+}
+
+.metaValue {
+  margin: 0.3rem 0 0;
+  color: #134e4a;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 640px) {
   .section {
     padding: 3.5rem 1.5rem;
+  }
+
+  .metaCol {
+    border-radius: 16px;
   }
 }
