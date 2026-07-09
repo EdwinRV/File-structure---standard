@@ -19,8 +19,8 @@
 
 .badge {
   display: inline-block;
-  background-color: #ede9fe;
-  color: #6366f1;
+  background-color: #ccfbf1;
+  color: #0f766e;
   font-size: 0.8125rem;
   font-weight: 600;
   padding: 0.35rem 1rem;
@@ -65,7 +65,7 @@
 .card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
-  border-color: #c7d2fe;
+  border-color: #99f6e4;
 }
 
 .iconWrapper {
@@ -75,8 +75,8 @@
   width: 52px;
   height: 52px;
   border-radius: 12px;
-  background-color: #ede9fe;
-  color: #6366f1;
+  background-color: #ccfbf1;
+  color: #0f766e;
   flex-shrink: 0;
 }
 

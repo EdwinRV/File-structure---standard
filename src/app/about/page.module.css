@@ -1,6 +1,6 @@
 /* ── Hero ─────────────────────────────────────────────────────── */
 .hero {
-  background: linear-gradient(135deg, #f8f7ff 0%, #eef2ff 100%);
+  background: linear-gradient(135deg, #ecfeff 0%, #f0fdfa 100%);
   padding: 6rem 1.5rem 5rem;
   text-align: center;
 }
@@ -12,8 +12,8 @@
 
 .badge {
   display: inline-block;
-  background-color: #ede9fe;
-  color: #6366f1;
+  background-color: #ccfbf1;
+  color: #0f766e;
   font-size: 0.8125rem;
   font-weight: 600;
   padding: 0.35rem 1rem;
@@ -32,7 +32,7 @@
 }
 
 .highlight {
-  color: #6366f1;
+  color: #0f766e;
 }
 
 .heroSub {
@@ -81,7 +81,7 @@
 
 .cta {
   display: inline-block;
-  background-color: #6366f1;
+  background-color: #0f766e;
   color: #ffffff;
   padding: 0.875rem 2rem;
   border-radius: 10px;
@@ -92,13 +92,13 @@
   margin-top: 0.5rem;
   transition: background-color 0.2s ease, transform 0.15s ease,
     box-shadow 0.2s ease;
-  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
+  box-shadow: 0 4px 14px rgba(15, 118, 110, 0.3);
 }
 
 .cta:hover {
-  background-color: #4f46e5;
+  background-color: #115e59;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.45);
+  box-shadow: 0 6px 20px rgba(15, 118, 110, 0.38);
 }
 
 .missionStats {
@@ -126,7 +126,7 @@
 .statNumber {
   font-size: 2rem;
   font-weight: 800;
-  color: #6366f1;
+  color: #0f766e;
   letter-spacing: -0.02em;
 }
 
@@ -179,7 +179,7 @@
 }
 
 .valueIcon {
-  color: #6366f1;
+  color: #0f766e;
 }
 
 .valueTitle {
