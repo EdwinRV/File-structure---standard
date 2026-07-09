@@ -3,7 +3,7 @@
 @theme {
   --color-primary: #0f766e;
   --color-primary-dark: #115e59;
-  --color-accent: #f59e0b;
+  --color-accent: #14b8a6;
 }
 
 :root {
@@ -16,7 +16,7 @@
   --line: #cbd5e1;
   --brand: #0f766e;
   --brand-strong: #115e59;
-  --accent: #f59e0b;
+  --accent: #14b8a6;
   --radius-sm: 10px;
   --radius-md: 16px;
   --radius-lg: 22px;

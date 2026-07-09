@@ -19,8 +19,8 @@
 
 .badge {
   display: inline-block;
-  background-color: #fef3c7;
-  color: #d97706;
+  background-color: #ccfbf1;
+  color: #0f766e;
   font-size: 0.8125rem;
   font-weight: 600;
   padding: 0.35rem 1rem;
@@ -72,8 +72,8 @@
 }
 
 .star {
-  color: #f59e0b;
-  fill: #f59e0b;
+  color: #0f766e;
+  fill: #0f766e;
 }
 
 .quote {
