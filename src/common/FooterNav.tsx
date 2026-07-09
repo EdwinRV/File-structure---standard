@@ -31,19 +31,29 @@ export default function FooterNav() {
               </a>
             ))}
           </div>
+
+          <a href={`mailto:${siteConfig.email}`} className={styles.emailLink}>
+            {siteConfig.email}
+          </a>
         </div>
 
-        <nav className={styles.links} aria-label="Footer navigation">
-          {siteConfig.footerLinks.map((link) => (
-            <Link
-              key={link.href + link.label}
-              href={link.href}
-              className={styles.link}
-            >
-              {link.label}
-            </Link>
-          ))}
-        </nav>
+        <div className={styles.linksGroup}>
+          <p className={styles.linksHeading}>Quick Links</p>
+          <nav className={styles.links} aria-label="Footer navigation">
+            {siteConfig.footerLinks.map((link) => (
+              <Link
+                key={link.href + link.label}
+                href={link.href}
+                className={styles.link}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+          <Link href="/contact" className={styles.footerCta}>
+            Book a Discovery Call
+          </Link>
+        </div>
       </div>
 
       <div className={styles.bottom}>
