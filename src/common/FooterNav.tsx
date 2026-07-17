@@ -58,7 +58,7 @@ export default function FooterNav() {
 
       <div className={styles.bottom}>
         <p>
-          © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
+          Edwin Rauda / 2026 / All rights reserved.
         </p>
       </div>
     </footer>
